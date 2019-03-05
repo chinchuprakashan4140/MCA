@@ -1,0 +1,49 @@
+#include<iostream>
+using namespace std;
+class employee
+{
+public:
+char name[20];
+int id;
+char place[20];
+void read();
+void display();
+};
+void employee::read()
+{
+cout<<"Enter the name";
+cin>>name;
+cout<<"Enter the id ";
+cin>>id;
+cout<<"Enter the place";
+cin>>place;
+}
+void employee::display()
+{
+cout<<"\nname of employeee\t"<<name<<"\n";
+cout<<"\nid of employee\t"<<id<<"\n";
+cout<<"\nplace of employee\t"<<place<<"\n";
+}
+main()
+{
+employee a;
+a.read();
+a.display();
+}
+
+
+output
+
+Enter the name
+chinchu
+Enter the id 
+1
+Enter the place
+poovanchal
+
+name of employeee	chinchu
+
+id of employee	1
+
+place of employee	poovanchal
+
