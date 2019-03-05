@@ -1,0 +1,38 @@
+#include<iostream>
+using namespace std;
+class complx
+{
+public:
+int real1,real2,img1,img2;
+void read()
+{
+cout<<"enter real and imgnry part of first num";
+cin>>real1>>img1;
+cout<<"enter real and img part of 2nd num";
+cin>>real2>>img2;
+}
+void add()
+{
+int r=real1+real2;
+int im=img1+img2;
+cout<<"sum="<<r<<"+"<<im<<"i";
+}
+};
+main()
+{
+complx c;
+c.read();
+c.add();
+}
+
+
+output
+
+enter real and imgnry part of first num
+3
+4
+enter real and img part of 2nd num
+5
+6
+sum=8+10i[
+
